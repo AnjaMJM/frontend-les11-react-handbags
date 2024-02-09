@@ -36,7 +36,8 @@ function App() {
                         Shop all bags
                     </Button>
                     <Button
-                        disabled
+                        handleClick={handlePreOrderClick}
+                        disabled= {true}
                     >
                         Pre-Order
                     </Button>
